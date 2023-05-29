@@ -1,0 +1,62 @@
+@media (max-width: 769px) {
+    h1 {
+        font-size: 25px !important;
+    }
+
+    #principal {
+        background-size: cover;
+        
+    }
+}
+
+@media (max-width: 426px) {
+    h1 {
+        font-size: 20px !important;
+        text-align: center;
+    }
+
+    .caixaTXT label {
+        font-size: 10px;
+        color: #000000;
+        font-weight: 500;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+    
+    #total1 {
+        font-size: 20px;
+    }
+    
+    #total2 {
+        font-size: 20px;
+    }
+
+    #principal {
+        background-size: cover;
+        
+    }
+    
+    #calculadora {
+        margin: 30px;
+        padding: 25px;
+    }
+}
+
+
+@media (max-width: 321px) {
+
+    h1 {
+        font-size: 15px;
+    }
+    
+    h4 {
+        font-size: 10px;
+    }
+    
+    #calculadora {
+        padding: 15px;
+
+    }
+}

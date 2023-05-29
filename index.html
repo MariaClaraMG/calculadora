@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+
+    <title>Calculadora de juros</title>
+</head>
+<body>
+    <main id="principal">
+        <div id="calculadora">
+            <h1>
+                Calculadora de Juros Simples e Juros Compostos
+            </h1>
+
+            <div id="campoTXT">
+                <div class="caixaTXT">
+                    <label for="valor">Valor Inicial (capital):</label>
+                    <input type="number" id="valor" step=".01"> 
+                </div>
+
+                <div class="caixaTXT">
+                    <label for="taxa">Taxa de Juros (a.m):</label>
+                    <input type="number" id="taxa" step=".01">
+                </div>
+
+                <div class="caixaTXT">
+                    <label for="tempo">Tempo de Rendimento (a.m):</label>
+                    <input type="number" id="tempo" step=".01">
+                </div>
+            </div>
+
+            <div class="centro">
+                <div id="result1">
+                    <h4>Resultado do juros simples:</h4>
+                    <span id="total1">
+                        R$ 0,00
+                    </span>
+                </div>
+    
+                <div id="result2">
+                    <h4>Resultado do juros compostos:</h4>
+                    <span id="total2">
+                        R$ 0,00
+                    </span>
+                </div>
+            </div>
+
+            <button id="calcular">
+                Calcular
+            </button>
+        </div>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

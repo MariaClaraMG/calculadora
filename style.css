@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#principal {
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-image: url(Papel\ de\ parede\ flores\ colorido.png);
+    color: #000000;
+}
+
+#calculadora {
+    background-color: #cdcaca;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.323);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#calculadora h1 {
+    font-size: 30px;
+    position: relative;
+    color: #C273CB;
+}
+
+#campoTXT {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.caixaTXT {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* pergunta */
+.caixaTXT label {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+}
+
+/* caixa */
+.caixaTXT input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #C273CB;
+    color: #000000;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.caixaTXT input:focus {
+    outline: none;
+}
+
+#result {
+    text-align: center;
+}
+
+#total1 {
+    font-size: 40px;
+}
+
+#total2 {
+    font-size: 40px;
+}
+
+#calcular {
+    background: #BB97BF;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.centro{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
